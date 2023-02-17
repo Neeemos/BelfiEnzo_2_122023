@@ -9,206 +9,195 @@
       <title>Booki </title>
    </head>
    <body>
-      <div id="container">
+      <div class="container">
          <!-- Header -->
          <header>
-            <img id="logo" src="./images/booki/logo/Booki.png" alt="logo" > 
+            <img class="header__logo" src="./images/booki/logo/Booki.png" alt="Logo officiel Booki" > 
             <nav>
-               <a class="nav-item" href="#">Hébergements</a>
-               <a class="nav-item" href="#">Activités</a>
+               <a class="header__navitem" href="#">Hébergements</a>
+               <a class="header__navitem" href="#">Activités</a>
             </nav>
          </header>
          <!-- Main -->
          <main>
             <!-- Section rechercher -->
             <section class="rechercher">
-               <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+               <h1 href="rechercher__h1">Trouvez votre hébergement pour des vacances de rêve</h1>
                <p>En plein centre ville ou en pleine nature</p>
                <form action="#" method="post" class="form-horizontal" >
                   <i class="dark-icon fas fa-map-marker-alt"></i>
-                  <input name="rechercher" class="rechercher" placeholder="Marseille, France">
-                  <button type="button" class="rechercher-button">Rechercher</button>
+                  <input name="rechercher" class="rechercher__input" placeholder="Marseille, France">
+                  <button type="button" class="rechercher__button">Rechercher</button>
                </form>
             </section>
             <!-- Section filtres -->
             <section class="filtres">
-               <h2>Filtres</h2>
-               <ul>
-                  <li><i class="blue-icon fas fa-money-bill-wave"></i><a href="#">Économique</a></li>
-                  <li><i class="blue-icon fas fa-child"></i><a href="#">Familial</a></li>
-                  <li><i class="blue-icon fas fa-heart"></i><a href="#">Romantique</a></li>
-                  <li><i class="blue-icon fas fa-dog"></i><a href="#">Animaux autorisés</a></li>
+               <h2 class="filtres__h2" >Filtres</h2>
+               <ul class="filtres__ul">
+                  <li class="filtres__li"><i class="blue-icon fas fa-money-bill-wave"></i><a class="filtres__a" href="#">Économique</a></li>
+                  <li class="filtres__li"><i class="blue-icon fas fa-child"></i><a class="filtres__a" href="#">Familial</a></li>
+                   <li class="filtres__li"><i class="blue-icon fas fa-heart"></i><a class="filtres__a" href="#">Romantique</a></li>
+                   <li class="filtres__li"><i class="blue-icon fas fa-dog"></i><a class="filtres__a" href="#">Animaux autorisés</a></li>
                </ul>
             </section>
+			
+	
             <!-- Info -->
             <div class="info">
-               <i class="fas fa-info"></i>
-               <p>Plus de 500 logements sont disponibles dans cette ville </p>
+               <i class="fa-solid fa-info info__fa-info"></i>
+               <p class="info__p">Plus de 500 logements sont disponibles dans cette ville </p>
             </div>
             <!-- Section accommodation-->
-            <section id="page-accommodation">
+            <section class="page-accommodation">
                <!-- accommodation in Marseille-->
                <div class="hotel-marseille">
                   <h2>Hébergements à Marseille</h2>
-                  <div class="card-hotel-marseille">
-                     <article class="card-hotel">
+                  <div class="hotel-Marseille__card">
+                     <article class="hotel-marseille__article-hotel">
                         <a href="#">
-                           <img src="./images/booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière"/>
-                           <div class="card-hotel-body">
+                           <img  class="hotel-marseille__img" src="./images/booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre lit superposé double dans centre-ville"/>
                               <h3>Auberge La Cannebière</h3>
                               <p>Nuit à partir de <strong>25€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles">
+                              <div class="card-hotel__etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
-                              </div>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                            </div>
                         </a>
                      </article>
-                     <article class="card-hotel">
+                     <article class="hotel-marseille__article-hotel">
                         <a href="#">
-                           <img src="./images/booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du Port">
-                           <div class="card-hotel-body">
+                           <img class="hotel-marseille__img" src="./images/booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre double, deux lits simples près du port">
                               <h3>Hôtel du Port</h3>
                               <p>Nuit à partir de 52<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles">
+                              <div class="card-hotel__etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
-                           </div>
+                          
                         </a>
                      </article>
-                     <article class="card-hotel">
+                     <article class="hotel-marseille__article-hotel">
                         <a href="#">
-                           <img src="./images/booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
-                           <div class="card-hotel-body">
+                           <img class="hotel-marseille__img" src="./images/booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre simple spacieuse">
+                         
                               <h3>Hôtel Les mouettes</h3>
                               <p>Nuit à partir de 76<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles">
+                              <div class="card-hotel__etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
-                           </div>
+                  
                         </a>
                      </article>
-                     <article class="card-hotel">
+                     <article class="hotel-marseille__article-hotel">
                         <a href="#">
-                           <img src="./images/booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
-                           <div class="card-hotel-body">
+                           <img class="hotel-marseille__img" src="./images/booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre lit double sur le thème de la mer">
+                         
                               <h3>Hôtel de la mer</h3>
                               <p>Nuit à partir de 46<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles">
+                              <div class="card-hotel__etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="etoiles fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
-                           </div>
+                     
                         </a>
                      </article>
-                     <article class="card-hotel">
+                      <article class="hotel-marseille__article-hotel">
                         <a href="#">
-                           <img src="./images/booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
-                           <div class="card-hotel-body">
+                           <img class="hotel-marseille__img" src="./images/booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Chambre quatre personnes, lit superposé dans cette Auberge de 1670">
+                           
                               <h3>Auberge Le Panier</h3>
                               <p>Nuit à partir de <strong>23€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles">
+                              <div class="card-hotel__etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
-                           </div>
+                  
                         </a>
                      </article>
-                     <article class="card-hotel">
+                      <article class="hotel-marseille__article-hotel">
                         <a href="#">
-                           <img src="./images/booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
-                           <div class="card-hotel-body">
+                           <img class="hotel-marseille__img" src="./images/booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre simple, lumineuse avec bureau ">
+                         
                               <h3>Hôtel chez Amina</h3>
                               <p>Nuit à partir de 96<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles">
+                              <div class="card-hotel__etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
-                           </div>
                         </a>
                      </article>
                   </div>
-                  <a class="voir-plus" href="#">Afficher plus</a>
+                  <a class="hotel-marseille__voir-plus" href="#">Afficher plus</a>
                </div>
                <!-- the most popular -->
-               <div class="page-populaire">
-                  <h2>Les plus populaires 
-                     <i class="blue fas fa-chart-line"></i>
+               <div class="hotel-marseille-populaire">
+                  <h2 class="hotel-marseille__h2">Les plus populaires 
+                     <i class="blue fas fa-chart-line right"></i>
                   </h2>
-                  <div class="card-populaire">
-                     <article class="card-populaire-hotel">
-                        <a href="#">
-                           <img src="./images/booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
-                           <div class="card-body-populaire-hotel">
+                  <div class="hotel-marseille-populaire__card">
+                     <article class="hotel-marseille-populaire__article">
+                        <a class="hotel-marseille-populaire__a" href="#">
+                           <img class="hotel-marseille-populaire__img" src="./images/booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre lit double, lumineuse avec grand miroir">
+                           <div class="hotel-marseille-populaire__body">
                               <h3>Hôtel Le soleil du matin</h3>
                               <p>Nuit à partir de 128<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles-populaire">
+                              <div class="hotel-marseille-populaire__card-etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                               <i class="etoiles-vide fas fa-star"></i>
+                               <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
                            </div>
                         </a>
                      </article>
-                     <article class="card-populaire-hotel">
-                        <a href="#">
-                           <img src="./images/booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambre d'hôtes">
-                           <div class="card-body-populaire-hotel">
+                     <article class="hotel-marseille-populaire__article">
+                        <a class="hotel-marseille-populaire__a" href="#">
+                           <img class="hotel-marseille-populaire__img" src="./images/booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Suite spacieuse, classe et élégante">
+                           <div class="hotel-marseille-populaire__body">
                               <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                               <p>Nuit à partir de 71<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles-populaire">
+                              <div class="hotel-marseille-populaire__card-etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
                            </div>
                         </a>
                      </article>
-                     <article class="card-populaire-hotel">
-                        <a href="#">
-                           <img src="./images/booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
-                           <div class="card-body-populaire-hotel">
+                     <article class="hotel-marseille-populaire__article">
+                        <a class="hotel-marseille-populaire__a" href="#">
+                           <img class="hotel-marseille-populaire__img" src="./images/booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre lit double, simple et lumineuse">
+                           <div class="hotel-marseille-populaire__body">
                               <h3>Hôtel Tout bleu et Blanc</h3>
                               <p>Nuit à partir de 68<strong>€</strong></p>
-                              <div class="card-blanc" ></div>
-                              <div class="card-etoiles-populaire">
+                              <div class="hotel-marseille-populaire__card-etoiles">
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
                                  <i class="etoiles fas fa-star"></i>
-                                 <i class="etoiles-vide fas fa-star"></i>
+                                 <i class="card-hotel__etoiles-vide fas fa-star"></i>
                               </div>
                            </div>
                         </a>
@@ -217,30 +206,30 @@
                </div>
             </section>
             <!-- Section activities in Marseille-->
-            <section id="page-activities">
+            <section class="hotel-marseille-activites">
                <h2>Activités à Marseille</h2>
-               <div class="card-activites">
-                  <article class="card-activites-article">
+               <div class="hotel-marseille-activites__card">
+                  <article class=hotel-marseille-activites__card__article>
                      <a href="#">
-                        <img src="./images/booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                        <img class="hotel-marseille-activites__card__article__img" src="./images/booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vue iconique du port de marseille">
                         <h3>Vieux Port</h3>
                      </a>
                   </article>
-                  <article class="card-activites-article">
+                  <article class=hotel-marseille-activites__card__article>
                      <a href="#">
-                        <img src="./images/booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                         <img class="hotel-marseille-activites__card__article__img" src="./images/booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de l'île de Pomègues de l'archipel du Frioul">
                         <h3>Fort de Pomègues</h3>
                      </a>
                   </article>
-                  <article class="card-activites-article">
+                  <article class=hotel-marseille-activites__card__article>
                      <a href="#">
-                        <img src="./images/booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
+                         <img class="hotel-marseille-activites__card__article__img" class="hotel-marseille-activites__card__img" src="./images/booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Vue aérienne du parc national des Calanques à Aix">
                         <h3>Parc national des Calanques</h3>
                      </a>
                   </article>
-                  <article class="card-activites-article">
+                  <article class=hotel-marseille-activites__card__article>
                      <a href="#">
-                        <img src="./images/booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                         <img class="hotel-marseille-activites__card__article__img" src="./images/booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Basilique Notre-Dame de la Garde « la Bonne Mère »">
                         <h3>Notre-Dame-de-la-Garde</h3>
                      </a>
                   </article>
@@ -250,7 +239,7 @@
          <!--Footer  -->
          <footer>
             <div>
-               <h2>A propos</h2>
+               <h2 class="footer__h2">A propos</h2>
                <ul>
                   <li><a href="#">Fonctionnement du site</a></li>
                   <li><a href="#">Conditions générales de vente</a></li>
@@ -258,14 +247,14 @@
                </ul>
             </div>
             <div>
-               <h2>Nos hébergements</h2>
+               <h2 class="footer__h2">Nos hébergements</h2>
                <ul>
                   <li><a href="#">Charte qualité</a></li>
                   <li><a href="#">Soumettre votre hôtel</a></li>
                </ul>
             </div>
             <div>
-               <h2>Assistance</h2>
+               <h2 class="footer__h2">Assistance</h2>
                <ul>
                   <li><a href="#">Centre d'aide</a></li>
                   <li><a href="#">Nous contacter</a></li>
