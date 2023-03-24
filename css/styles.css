@@ -448,7 +448,7 @@ img {
 
 	.hotel {
 		display: flex;
-		background-color: #f2f2f2;
+		background-color: #fdfefd;
 		border-radius: 30px;
 		flex-basis: 65%;
 		justify-content: space-between;
@@ -471,7 +471,9 @@ img {
 		line-height: 1.4rem;
 		margin-bottom: 20px;
 	}
-
+	.item__img {
+		height: 145px;
+	}
 	.popular {
 		background-color: #F2F2F2;
 		border-radius: 0;
@@ -481,6 +483,10 @@ img {
 
 	.activites {
 		margin: 0 12px
+	}
+	
+	.activites__title {
+    width: 30%;
 	}
 
 	.activites__tab {
